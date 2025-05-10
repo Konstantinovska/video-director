@@ -1,0 +1,53 @@
+.button {
+    display: flex;
+    padding: 16px 24px;
+    border: 2px solid;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    border-radius: 2px;
+    width: auto;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-prymary-light);
+    cursor: pointer;
+    @media screen and (min-width: 1200px) {
+      padding: 8px 16px;
+      display: flex;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  
+  .button:hover {
+    color: var(--color-secondary);
+    background-color: transparent;
+  }
+  
+  .btn-text {
+    color: var(--color-prymary-light);
+  }
+
+.youtube-buttton_wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: rgba($color: #3e436e, $alpha: 0.5);
+  border-radius: 50%;
+}
+
+  
+.youtube-buttton {
+  position: absolute;
+  left: 18px;
+  width: 28px;
+  height: 20px;
+  border: 10px solid transparent;
+  border-left: 28px solid var(--color-prymary-light);
+  opacity: 0.8;
+
+}

@@ -1,0 +1,120 @@
+.hero-section {
+  height: 80%;
+  position: relative;
+  background-image: linear-gradient(
+      350deg,
+      transparent 55%,
+      rgba(21, 24, 37, 0.811) 70%
+    ),
+    linear-gradient(
+      130deg,
+      rgba(23, 28, 45, 0.596) 15%,
+      transparent 44%,
+      rgba(50, 60, 96, 0.676) 87%
+    ),
+    url(../images/240_F_907325009_YBuXi7hsGbfD3OrEVAwQdQ1uV517N30n.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section__container {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: calc(8%);
+  align-items: stretch;
+  @media screen and (min-width: 1200px) {
+    padding: 40px 0;
+    flex-direction: row;
+    gap: calc(12%);
+    justify-content: space-around;
+  }
+}
+.hero-section__info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+  @media screen and (min-width: 1200px) {
+    padding: 40px 0;
+    gap: 32px;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+}
+
+.hero-section_main-title {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 0;
+  color: var(--color-secondary-light);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 72px;
+  }
+}
+.hero-section_typed-text {
+  color: var(--color-prymary-light);
+  font-weight: 300;
+  font-size: 24px;
+  @media screen and (min-width: 1200px) {
+    font-size: 40px;
+  }
+}
+
+.typewriter-effect {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter-effect > .text {
+  max-width: 0;
+  animation: typing 3s steps(var(--characters)) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  75%,
+  100% {
+    max-width: calc(var(--characters) * 1ch);
+  }
+}
+
+@keyframes blink {
+  0%,
+  75%,
+  100% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+
+.hero-section__photo {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    background-color: rgba(202, 199, 238, 0.4);
+    border-radius: 50%;
+  }
+}
+
+.profile_img {
+  border-radius: 50%;
+}
+
+.profile_img::after {
+  position: absolute;
+
+  content: ' ';
+  width: 200px;
+  height: 200px;
+  background-color: rgb(23, 86, 86);
+  color: #3d5095;
+  border: 3px solid salmon;
+}
