@@ -1,0 +1,27 @@
+.link {
+  color: var(--color-prymary-light);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+  text-shadow: 0px 0px 20px var(--color-primary);
+}
+.header-link:hover {
+  text-decoration: none;
+}
+.adress-link {
+  font-style: normal;
+}
+.header_link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+  }
+}

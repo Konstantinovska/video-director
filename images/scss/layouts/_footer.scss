@@ -1,0 +1,19 @@
+.footer {
+  height: 48px;
+  background-color: var(--color-prymary-dark);
+}
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 4%;
+
+  font-size: 16px;
+}
+.text-secondary {
+  color: var(--color-prymary-light);
+}
+.footer-police {
+  text-align: start;
+  color: var(--color-secondary);
+}

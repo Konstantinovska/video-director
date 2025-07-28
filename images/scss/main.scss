@@ -1,0 +1,28 @@
+@import './utils/fonts';
+@import './utils/variabels';
+@import './utils/texts';
+@import './utils/utils';
+// @import './utils/mixins';
+@import './base';
+
+@import './components/buttons';
+@import './components/carousel-button';
+
+// @import './components/swiper';
+@import './components/links';
+@import './components/pagination';
+
+@import './layouts/section';
+@import './layouts/hobby-section';
+@import './layouts/skill-section';
+@import './layouts/contact-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/info-section';
+@import './layouts/project-section';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/mobile-menu';
+@import './layouts/lens-designe';
+@import './layouts//summary-section';
+@import './layouts/shoureel-section';

@@ -1,0 +1,32 @@
+.hobby-section {
+ 
+}
+.hobby-section_row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 48px;
+  margin-right: 48px;
+  justify-content: center;
+  gap: 15%;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 64px;
+  margin-right: 64px;
+
+  }
+}
+.hobby-section__img {
+  border-radius: 4px;
+}
+.hobby-section__item {
+  position: relative;
+}
+.link-icon {
+  position: absolute;
+  width: 48px;
+right: 24px;
+bottom: 16px;
+  transform: rotate(45deg);
+  opacity: 0.8;
+
+}
