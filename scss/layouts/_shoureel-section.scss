@@ -1,0 +1,77 @@
+.shourill-section__container {
+  padding-left: 0px;
+}
+.shourill-section-vertikal {
+  box-shadow: 2px 2px 20px var(--color-primary);
+}
+.shoureel-section-title {
+  margin-bottom: 48px;
+}
+
+.shourill-title {
+  margin-bottom: 8px;
+}
+.shourill-section_list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.videos-section_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  // background-color: aqua;
+  gap: 24px;
+}
+.videos-section_colomn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.colomn-01 {
+  width: 35%;
+  background-color: transparent;
+  gap: 40px;
+}
+
+.colomn-02 {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.colomn-03 {
+  width: 35%;
+  gap: 40px;
+}
+
+.item-youtube {
+  // width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.video-title-shourill {
+  margin-bottom: 0;
+}
+
+.youtub-href {
+  width: 100%;
+  height: 100%;
+  bottom: -16px;
+  right: 0px;
+}
+
+.item-tik-tok {
+  width: 90%;
+  margin-top: 0;
+  position: relative;
+}
+.tik-tok-href {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
